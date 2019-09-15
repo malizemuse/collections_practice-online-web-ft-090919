@@ -89,6 +89,7 @@ def sum_array(array)
   
 end
 
+<<<<<<< HEAD
 
 def add_s(array)
   
@@ -109,4 +110,13 @@ def add_s(array)
   new_array
   
 end
+=======
+# TEST CODE 
+
+int_array = [1,2,3]
+
+puts sum_array(int_array)
+
+
+>>>>>>> 2433c65dcbd4882847205dbace41f00188dbc604
 
