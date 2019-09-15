@@ -92,22 +92,18 @@ end
 <<<<<<< HEAD
 
 def add_s(array)
-  
-  new_array = []
-  
-  array.each_with_index do |item, index|
+
+  array.each_with_index.collect do |item, index|
     
     if index != 1
-      new_array << item + "s"
+      item + "s"
     
     else
-      new_array << item
+      item
     
     end
     
   end 
-  
-  new_array
   
 end
 =======
